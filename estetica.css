@@ -1,0 +1,67 @@
+/* Estilos para o container */
+.container {
+    display: flex;
+}
+
+/* Estilos para a barra lateral */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* SOBRE MIM*/
+#sobre {
+    margin-top: 20px; /* Espaçamento acima da seção */
+}
+
+#sobre h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about p {
+    margin-bottom: 20px;
+}
+
+/* Estilos para a segunda foto */
+.about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/*BARRA LATERAL*/
+.sidebar .profile {
+    text-align: center;
+}
+
+.sidebar .profile h1 {
+    margin-bottom: 10px;
+}
+
+.sidebar .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Estilos para o conteúdo */
+.content {
+    margin-left: 270px;
+    padding: 20px;
+}
